@@ -56,7 +56,7 @@ typedef struct bus_s
 	FILE *file;
 	char *content;
 	int lifi;
-} bus_t;
+}  bus_t;
 extern bus_t bus;
 
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
